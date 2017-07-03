@@ -1,0 +1,593 @@
+/* SmiggyBank.com */
+body {
+    color: #333;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;;
+    color: #f15a24;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 28px;
+    line-height: 36px;
+}
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+a {
+    color: #f15a24;
+}
+
+.btn {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+/* bootstrap overides */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* header and slider section */
+
+#top-content {
+    background:url('../img/home-slider-bg.png') no-repeat;
+    padding-top: 0px;
+    background-repeat:no-repeat;
+    min-height:300px;
+    background-size:cover;
+    background-position: center center;
+}
+
+@media (max-width: 555px) {
+    #top-content {
+        background-position:  65%;
+    }
+}
+
+/* transparent bar across the top */
+header {
+    width:100%;
+    background-color: rgba(248,248,248,0.5);
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* nav bar */
+.topnav {
+    overflow: hidden;
+}
+
+/* nav bar links container */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 4% 3%;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0px;
+}
+
+@media (max-width: 767px) {
+    .topnav a {
+        font-size: 18px;
+    }
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+}
+
+#localnavblock {
+  padding-left: 0;
+  padding-right: 0 ;
+  z-index: 1;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+/* login */
+
+#smiggy-login {
+    margin-top: 10%;
+    height: 100%;
+}
+
+
+#login-text {
+    margin: 0;
+    font-size: 16px;
+    padding: 5px;
+}
+
+/* Set the header information */
+.herotext {
+    color: #f15a24;
+    margin-top: 10px;
+    font-weight: 400;
+    text-shadow: 1px 1px 5px white;
+}
+
+#slide2, #slide3 {
+    display: none;
+}
+
+
+.signupbtn {
+    
+    color: #fff;
+    background-color: #f15a24;
+}
+
+.infoblock {
+    margin-top: 20px;
+}
+
+
+/* Testamonials */
+.testamonial-image {
+    float:left
+}
+
+.testamonial-text {
+    clear:both;
+    font-style: italic;
+}
+
+.testimonial {
+        margin-bottom: 5px;
+        background: #f2f2f2;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+        padding: 10px 0;
+    }
+
+.atester {
+    color: #898989;
+    bottom: 0;
+}
+
+/* Blog */
+
+#blog-slide-1 {
+    background:url(../img/slide1.jpg) no-repeat;
+    background-position: top;
+    height: 270px;
+}
+
+#blog-slide-2 {
+    background:url(../img/slide2.jpg) no-repeat;
+    background-position: top;
+    height: 270px;
+}
+
+#blog-slide-3 {
+    background:url(../img/slide3.jpg) no-repeat;
+    background-position: top;
+    height: 270px;
+}
+
+#blog-slide-4 {
+    background:url(../img/slide4.jpg) no-repeat;
+    background-position: top;
+    height: 270px;
+}
+
+#blog-slide-5, #blog-slide-6, #blog-slide-7, #blog-slide-8,
+#blog-slide-9, #blog-slide-10, #blog-slide-11, #blog-slide-12 {
+    background:url(../img/user-stories-photo-01.jpg) no-repeat;
+    background-position: top;
+    height: 270px;
+}
+
+.item {
+    color: #fff;
+}
+
+.item h4 {
+    padding-top: 220px;
+    text-align: center;
+}
+
+#newsletter-text {
+    margin-top: 5px;
+}
+
+/* email block */
+#email-button-block {
+    padding-right: 0;
+
+}
+
+#email-button {
+    color: #fff;
+    background-color: #f15a24;
+    width: 100%;
+}
+
+/* footer */
+
+footer {
+    background-color: rgb(242, 242, 242);
+}
+
+footer h3 {
+    color: #f15a24;
+}
+
+footer a {
+    color: #333;
+}
+footer a:hover {
+    color: #333;
+    text-decoration: none;
+}
+footer ul li {
+    margin: 10px 0;
+}
+
+.orange-area {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background: #f15a24;
+    
+}
+.orange-area p {
+    margin: 0;
+}
+
+.copyright-text, .legal {
+    color: #fff;
+}
+
+.legal {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .copyright-text {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .legal {
+        text-align: right;
+    }
+}
+
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 991px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        /*float: right; */
+        display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+        top: 0;
+        display: block;
+    }
+
+    .topnav.responsive a {
+        background-color: rgba(255,255,255,0.9);
+        float: none;
+        display: block;
+        text-align: left;
+        min-width: 200px;
+    }
+
+    .topnav.responsive.menulist {
+        margin-top: 50px;
+    }
+}
+
+/* Xtra Small screens */
+@media (max-width: 767px) {
+
+
+    
+
+    #myTopnav {
+        position: absolute;
+        min-width: 200px;
+        
+    }
+
+    .navbar-text {
+        50px;
+    }
+
+    #login-text {
+      padding: 0px 5px 0px 5px;
+      font-size: 18x;
+    }
+
+
+    #smiggy-login {
+        margin-top: 8%;
+        height: 20px;
+    }
+
+    /* Slides */
+    .mySlides {
+        
+    }
+
+    .herotext {
+        font-size: 18px;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+
+    .slide-text {
+        margin: 1% 0;
+    }
+
+    .signupbtn {
+        margin-left: 0%;
+        margin-top: 0%;
+        height: 44px;
+        color: #fff;
+        padding: 0 20px;
+    }
+
+    .bottom-aligned-btn {
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 100%;
+        height: 40px;
+        border-color: #333;
+        border-width: 2px;
+        font-size: 16px;
+    }
+
+    .infoblock {
+        margin-top: 0px;
+    }
+
+    .testimonialheader {
+        margin: 0px 0px 5px 0 ;
+    }
+
+    .testimonialheader h2 {
+        font-size: 22px
+    }
+
+    .testimonial-image {
+        width: 100% auto;
+    }
+
+    .testimonial {
+        margin-bottom: 5px;
+        background: #f2f2f2;
+        border-radius: 2px;
+        -moz-border-radius: 2px;
+        -webkit-border-radius: 2px;
+    }
+
+    #newsletter-text {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+
+    #email-button-block {
+        padding-right: 15px;
+    }
+
+}
+
+/* Small screens */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    
+
+    #myTopnav {
+        position: absolute;
+    }
+
+    .topnav a {
+        padding: 2% 3%;
+    }
+
+    .navbar-text {
+        50px;
+    }
+
+    #login-text {
+        padding: 15px 15px 0px 15px;
+    }
+
+
+    #smiggy-login {
+        margin-top: 10%;
+        height: 25px;
+    }
+
+
+    /* Slides */
+    
+    .herotext {
+        font-size: 20px;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        text-shadow: 1px 1px 5px white;
+        font-weight: 400;
+    }
+
+    .slide-text {
+        margin: 1% 0;
+    }
+
+    .signupbtn {
+        
+        margin-top: 0%;
+        height: 44px;
+    }
+
+    .bottom-aligned-btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 270px;
+        height: 40px;
+        border-color: #333;
+        border-width: 2px;
+        font-size: 16px;
+    }
+
+    .testimonialheader {
+        margin: 50px 0px 30px 0 ;
+    }
+
+    #newsletter-text {
+        margin-top: 15px;
+        font-size: 16px;
+    }
+
+    #email-button-block {
+        padding-right: 15px;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    
+
+    
+
+    #login-text {
+        padding: 15px 15px 0px 15px;
+    }
+
+
+    /* Slides */
+    
+
+    .herotext {
+        font-size: 22px;
+        margin-top: 2%;
+        text-shadow: 1px 1px 5px white;
+        font-weight: 400;
+    }
+
+    .slide-text {
+        margin: 1% 0;
+    }
+
+    .signupbtn {
+        
+        height: 44px;
+    }
+
+    .bottom-aligned-btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 270px;
+        height: 40px;
+        border-color: #333;
+        border-width: 2px;
+        font-size: 16px;
+    }
+
+    .testimonialheader {
+        margin: 50px 0px 30px 0 ;
+    }
+
+    #email-button-block {
+        padding-left: 0px;
+    }
+
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+
+    
+
+    
+
+    #login-text {
+        padding: 15px 15px 0px 15px;
+    }
+
+    /* Slides */
+    
+
+    .herotext {
+        font-size: 30px;
+        margin-top: 2%;
+        text-shadow: 1px 1px 5px white;
+        font-weight: 400;
+    }
+
+    .slide-text {
+        margin: 1% 0;
+    }
+
+    
+
+    .bottom-aligned-btn {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        width: 270px;
+        height: 40px;
+        border-color: #333;
+        border-width: 2px;
+        font-size: 16px;
+    }
+
+    #email-button-block {
+        padding-left: 0px;
+    }
+
+
+    
+}
